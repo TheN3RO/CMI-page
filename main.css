@@ -1,0 +1,100 @@
+:root {
+    --blue: #31A3DD;
+    --darkblue: #142E45;
+    --footer: #34495E;
+    --grey: rgb(221, 221, 221);
+}
+
+body {
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif
+}
+
+.baner{
+    background: url("assets/img/grafika.jpg") no-repeat center center fixed;
+    min-height: 600px;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.text{
+    position: absolute;
+    top: 475px;
+    left: 55%;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.p1{
+    border: 5px solid #31a3dd;
+    border-radius: 10px;
+    background-color: #31a3dd;
+    text-shadow:0 px black;
+
+}
+
+@media all and (max-width: 1000px){
+    .text{
+        position: absolute;
+        top: 475;
+        left: 10%;
+
+    }
+}
+
+.background {
+    background-color: var(--darkblue);
+}
+
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.size {
+    height: 500px;
+}
+
+.text-box-1 {
+    position: absolute;
+    top: 40px;
+    left: -510px;
+    width: 600px;
+    height: 350px;
+    font-size: 24px;
+    z-index: 100;
+    background-color: var(--grey);
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.47);
+}
+
+.text-box-2 {
+    font-size: 24px;
+    background-color: var(--grey);
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.47);
+}
+
+.photo-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.parallax {
+    background-image: url("assets/img/R.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: var(--footer);
+}
